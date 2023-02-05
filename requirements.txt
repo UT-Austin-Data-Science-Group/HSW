@@ -1,0 +1,11 @@
+scipy
+six
+imageio
+dateutil
+numpy
+tensorboard==1.12.2
+tensorboardX==1.6
+tensorflow-gpu
+torch==1.1.0
+torchvision==0.3.0
+tqdm==4.29.1
