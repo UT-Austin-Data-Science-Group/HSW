@@ -1,21 +1,31 @@
 # Hierarchical Sliced Wasserstein distance
 Python3 implementation of the papers [Hierarchical Sliced Wasserstein distance](https://arxiv.org/abs/2209.13570)
 
+Details of the model architecture and experimental results can be found in our papers.
+
+```
+@article{nguyen2023hierarchical,
+  title={Hierarchical Sliced Wasserstein Distance},
+  author={Khai Nguyen and Tongzheng Ren and Huy Nguyen and Litu Rout and Tan Nguyen and Nhat Ho},
+  journal={Advances in Neural Information Processing Systems},
+  year={2023},
+  pdf={https://arxiv.org/pdf/2209.13570.pdf},
+  code={https://github.com/UT-Austin-Data-Science-Group/HSW}
+}
+```
+
+Please CITE our paper whenever this repository is used to help produce published results or incorporated into other software.
+
+This implementation is made by [Khai Nguyen](https://khainb.github.io). README is on updating process.
+
 ## Requirement
 
-* python 3.8.8
-* pytorch 1.8.1
-* torchvision
-* numpy
-* tqdm
-* tensorboardX
-* tensorflow-gpu
-* imageio
+The code is implemented with Python (3.8.8) and Pytorch (1.9.0).
 
 ## What is included?
 * (Hierarchical) Sliced Wasserstein Generators
 
-## Sliced Wasserstein Generators
+## (Hierarchical) Sliced Wasserstein Generators
 ### Code organization
 * cfg.py : this file contains arguments for training.
 * datasets.py : this file implements dataloaders.
