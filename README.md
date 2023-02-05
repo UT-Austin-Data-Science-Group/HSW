@@ -40,15 +40,15 @@ The code is implemented with Python (3.8.8) and Pytorch (1.9.0).
 
 
 ### Main path arguments
---dataset : type of dataset {"cifar10","tinyimagenet","celeba""}
---img_size : size of images
---dis_bs : size of mini-batches
---model : "sngan_{dataset}"
---eval_batch_size : batchsize for computing FID
---L : number of projections for (H) SW
---k : number of bottleneck projections for (Max-)HSW
---s_lr : slice learning rate (for Max-SW and Max-HSW)
---s_max_iter : max iterations of gradient update (for Max-SW and Max-HSW)
+* --dataset : type of dataset {"cifar10","tinyimagenet","celeba""}
+* --img_size : size of images
+* --dis_bs : size of mini-batches
+* --model : "sngan_{dataset}"
+*. --eval_batch_size : batchsize for computing FID
+* --L : number of projections for (H) SW
+* --k : number of bottleneck projections for (Max-)HSW
+* --s_lr : slice learning rate (for Max-SW and Max-HSW)
+* --s_max_iter : max iterations of gradient update (for Max-SW and Max-HSW)
 
 ### Example
 
