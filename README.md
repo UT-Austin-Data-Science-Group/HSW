@@ -7,7 +7,7 @@ Details of the model architecture and experimental results can be found in our p
 @article{nguyen2023hierarchical,
   title={Hierarchical Sliced Wasserstein Distance},
   author={Khai Nguyen and Tongzheng Ren and Huy Nguyen and Litu Rout and Tan Nguyen and Nhat Ho},
-  journal={Advances in Neural Information Processing Systems},
+  journal={International Conference on Learning Representations},
   year={2023},
   pdf={https://arxiv.org/pdf/2209.13570.pdf},
   code={https://github.com/UT-Austin-Data-Science-Group/HSW}
@@ -45,8 +45,8 @@ The code is implemented with Python (3.8.8) and Pytorch (1.9.0).
 * --dis_bs : size of mini-batches
 * --model : "sngan_{dataset}"
 *. --eval_batch_size : batchsize for computing FID
-* --L : number of projections for (H) SW
-* --k : number of bottleneck projections for (Max-)HSW
+* --Ls : "k,L" with k is the number of bottleneck projections for (Max-)HSW and L is the number of projections for HSW
+* --L : the number of projections fo SW
 * --s_lr : slice learning rate (for Max-SW and Max-HSW)
 * --s_max_iter : max iterations of gradient update (for Max-SW and Max-HSW)
 
